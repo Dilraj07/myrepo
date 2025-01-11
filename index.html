@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namma Shop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-image: url("img/background.jpg");
+            height: 100vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            position: fixed;
+        }
+
+        .logo {
+            padding: 17px;
+
+        }
+
+        .image {
+            display: inline-flex;
+            transform: translate(-150px, 85px);
+        }
+
+        form h2 {
+            color: blue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            margin: 20px 0px;
+        }
+
+        .right {
+            background-color: white;
+            border-radius: 12px;
+            display: inline-flex;
+            height: 50vh;
+            width: 40vh;
+            justify-content: center;
+            align-items: top;
+            transform: translate(-50px, 200px);
+        }
+
+        form {
+            padding: auto;
+        }
+
+        .input {
+            margin: 10px;
+            padding: 5px;
+        }
+
+        .input input {
+            padding: 5px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            width: 250px;
+            height: 25px;
+        }
+
+        .btn {
+            margin: 15px 0px 10px 15px;
+            justify-content: center;
+        }
+
+        .btn button {
+            background-color: rgb(19, 140, 221);
+
+            border: 1px;
+            border-radius: 5px;
+
+            padding: 5px;
+            height: 40px;
+            width: 260px;
+
+        }
+
+        .btn button a {
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: medium;
+            text-decoration: none;
+
+        }
+
+
+        .forgot {
+            margin: 10px 0px 0px 140px;
+
+        }
+
+        .forgot a {
+            text-decoration: none;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .connection {
+
+            margin-top: 40px;
+        }
+
+        .connection a {
+            margin: 0px;
+            padding: 23px;
+
+        }
+
+        .sign_up {
+            justify-content: center;
+            margin-top: 10px;
+            transform: translateX(65px);
+
+        }
+
+        .sign_up a {
+            color: rgb(5, 109, 213);
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="logo">
+            <img src="img/Logo.png" alt="" width="300px" height="110px">
+        </div>
+        <div class="image">
+            <img src="img/Shopping.jpg" alt="" width="600px" height="600px">
+        </div>
+        <div class="right">
+            <form action="Log in">
+                <h2> Log in </h2>
+                <div class="input">
+                    <input type="email" placeholder="Email address" required><br>
+                </div>
+                <div class="input">
+                    <input type="password" name="" id="" placeholder="password"> <br>
+                </div>
+                <div class="btn"><button><a href="main.html">Log in</a></button></div>
+                <div class="forgot"><a href="#">Forgot password</a></div>
+                <div class="connection">
+                    <a href="#"><img src="facebook.svg" alt=""></a>
+                    <a href="#"><img src="google.svg" alt=""></a>
+                    <a href="#"><img src="twitter.svg" alt=""></a>
+                    <a href="#"><img src="apple.svg" alt=""></a>
+                </div>
+                <div class="sign_up"><a href="#">Need an account? Sign up</a></div>
+            </form>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
